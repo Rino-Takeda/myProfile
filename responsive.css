@@ -1,0 +1,105 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    .container{
+        padding: 30px;
+    }
+
+    h1{
+        font-size: 26px;
+        letter-spacing: 10px;
+    }
+
+    .photo{
+        border: 5px solid purple;
+        border-radius: 40px;
+    }
+
+    .name h2{
+        font-size: 36px;
+        letter-spacing: 16px;
+    }
+
+    .card{
+        gap: 18px;
+    }
+
+    .column1{
+        padding: 12px 0;
+        margin: 1.5em 0;
+        box-shadow: 0 0 0 6px #ffffe0;
+    }
+
+    .title{
+        font-size: 14px;
+    }
+
+    .txt{
+        font-size: 20px;
+        padding-bottom: 14px;
+    }
+
+    .greeting{
+        font-size: 20px;
+        letter-spacing: 6px;
+    }
+
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+    .container{
+        width: 100%;
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 20px;
+        letter-spacing: 6px;
+        padding-bottom: 18px;
+    }
+
+    .photo{
+        width: 40%;
+        margin-left: 14px;
+        border: 3px solid purple;
+        border-radius: 20px;
+    }
+
+    .name h2{
+        font-size: 32px;
+        letter-spacing: 12px;
+    }
+
+    .card{
+        display: block;
+        gap: 0px;
+        margin: 20px 0;
+    }
+
+    .column1{
+        width: 80%;
+        padding: 8px 0;
+        margin: 1em auto;
+        box-shadow: 0 0 0 5px #ffffe0;
+    }
+
+    .column2{
+        display: none;
+    }
+
+    .title{
+        font-size: 12px;
+        padding: 10px 0 10px 0;
+    }
+    
+    .txt{
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+
+    .greeting{
+        font-size: 16px;
+        letter-spacing: 4px;
+        margin-top: 24px;
+    }
+}
